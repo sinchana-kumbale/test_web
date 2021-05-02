@@ -1,0 +1,30 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+  <script type="text/javascript">
+  window.onload = function () {
+    var chart = new CanvasJS.Chart("chartContainer", {
+       title: {
+        text: " Active Cases in each state in India "
+      },
+      data: [
+      {
+        type: "column",
+        dataPoints: [
+                    {% for key,value in context.items %}
+                    { y: {{value}},  label: '{{key}}' },
+                    {% endfor %}
+                    ]
+      }
+            ]
+                                                    });
+
+    chart.render();
+                            }
+  </script>
+  <script type="text/javascript" src="https://canvasjs.com/assets/script/canvasjs.min.js"></script>
+</head>
+<body>
+  <div id="chartContainer" style="height: 500px; width: 40%;">
+  </div>
+</body>
