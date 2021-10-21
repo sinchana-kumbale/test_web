@@ -4,7 +4,7 @@ Welcome to this **Resource Distribution** portal crafted using _Django_.
 
 The Features that are currently incorporated include : 
 - Information on the Total number of cases, Active Cases and Deaths as a percentage of the population.
-- A Graphical representation of the dire situation in most affected states in India.
+- A Graphical representation of the dire situation in the most affected states in India.
 >This was integrated using matplotlib and Chart.js
 - Includes information on practices to be followed to ensure safety.
 - Catagories states into Safe, Moderate and Threatened using information on the number of hospitals, beds and vaccination status.
