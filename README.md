@@ -23,3 +23,4 @@ Run the following commands at the terminal
 Open a web browser and type http://127.0.1:8000/ or http://localhost:8000/
 
 
+PS: This Repository was made as a part of a 36 hour hackathon in which our team came in 10th.
